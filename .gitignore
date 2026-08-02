@@ -3,11 +3,18 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# DVC tracked data
+# External cloned source repo
+external/
+
+# DVC-tracked raw data
 /data/raw/v0
 /data/raw/v1
+
+# DVC-tracked processed data
 /data/processed/v0
 /data/processed/v1
+/data/processed/v0_sample
+/data/processed/v1_sample
 
 # Local generated current data
 /data/processed/current
